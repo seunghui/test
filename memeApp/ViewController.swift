@@ -167,7 +167,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
         NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
         NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillHide, object: nil)
         
-        
     }
     
     //리턴키누르면 닫히는 코드
